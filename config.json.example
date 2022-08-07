@@ -1,0 +1,17 @@
+{
+   "botToken": "",
+   "roleChannelIDs": ["", ""],
+   "roleMessageDeleteSeconds": 60,
+   "roles": [{
+         "roleID": "",
+         "emojiName": ""
+      }, {
+         "roleID": "",
+         "emojiName": ""
+      },
+      {
+         "roleID": "",
+         "emojiName": ""
+      }
+   ]
+}

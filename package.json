@@ -1,0 +1,24 @@
+{
+  "name": "rolebot",
+  "version": "1.0.0",
+  "description": "Simple Discord reaction role bot.",
+  "main": "roles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RagingRectangle/roleBot.git"
+  },
+  "author": "RagingRectangle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RagingRectangle/roleBot/issues"
+  },
+  "homepage": "https://github.com/RagingRectangle/roleBot#readme",
+  "dependencies": {
+    "discord-api-types": "0.36.2",
+    "discord.js": "14.0.1",
+    "fs": "0.0.1-security"
+  }
+}
