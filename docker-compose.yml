@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  rolebot:
+    container_name: RoleBot
+    build: . # change depending on your environment
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/usr/src/app/config.json

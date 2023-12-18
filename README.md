@@ -22,6 +22,15 @@ cp -r config.json.example config.json
 npm install
 ```
 
+## When running Docker
+
+```
+git clone https://github.com/RagingRectangle/roleBot.git
+cd roleBot
+cp -r config.json.example config.json
+docker-compose up -d -- build rolebot
+```
+
 ## Discord Setup
 - Create the roles users can select from.
 - Create channel and make a post explaining how to click which reaction to add/remove which role.
@@ -38,3 +47,4 @@ npm install
 ## Usage
 - **Basic:** `node roles.js`
 - **PM2:** `pm2 start roles.js`
+- **Docker:** No action required, container will stay up
