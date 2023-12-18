@@ -28,7 +28,6 @@ npm install
 git clone https://github.com/RagingRectangle/roleBot.git
 cd roleBot
 cp -r config.json.example config.json
-docker-compose up -d -- build rolebot
 ```
 
 ## Discord Setup
@@ -47,4 +46,4 @@ docker-compose up -d -- build rolebot
 ## Usage
 - **Basic:** `node roles.js`
 - **PM2:** `pm2 start roles.js`
-- **Docker:** No action required, container will stay up
+- **Docker:** `docker-compose up -d -- build rolebot`
